@@ -1,14 +1,69 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Animation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
-    
-    <script src="index.js"></script>
+
+<div class="background-circle"></div>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+    <!-- Биринчи Слайд -->
+    <div class="swiper-slide">
+      <div class="card">
+        <img src="1.jpg" alt="">
+        <div class="info-overlay">
+            <h2>Сенин сулуулугуң</h2>
+            <p>Жаңы форматтагы тажрыйба</p>
+            <p class="small-text">Кененирээк шилтемеге өт</p>
+            <a href="https://wa.me/996703643679" class="whatsapp-btn">
+                Подробнее <span>></span>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Экинчи Слайд -->
+    <div class="swiper-slide">
+      <div class="card">
+        <img src="2.jpg" alt="">
+        <div class="info-overlay">
+            <h2>Өзгөчө стиль</h2>
+            <p>Ар бир деталда маани бар</p>
+            <p class="small-text">Кененирээк шилтемеге өт</p>
+            <a href="https://wa.me/996703643679" class="whatsapp-btn">
+                Подробнее <span>></span>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Үчүнчү Слайд -->
+    <div class="swiper-slide">
+      <div class="card">
+        <img src="3.jpg" alt="">
+        <div class="info-overlay">
+            <h2>Биз менен бирге бол</h2>
+            <p>Сапатка ишенимдүү кадам</p>
+            <p class="small-text">Кененирээк шилтемеге өт</p>
+            <a href="https://wa.me/996703643679" class="whatsapp-btn">
+                Подробнее <span>></span>
+            </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js"></script> <!-- script.js эмес, index.js экенин текшериңиз -->
+
 </body>
 </html>
